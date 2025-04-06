@@ -3,6 +3,12 @@
   "displayName": "vscode-theme",
   "description": "",
   "version": "0.0.1",
+  "publisher": "hscheue",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hscheue/vscode-theme.git"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
