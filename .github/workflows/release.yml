@@ -18,6 +18,6 @@ jobs:
       - uses: actions/download-artifact@v4
       - run: |
           TAG="${GITHUB_REF##*/}"
-          gh release upload "${TAG}" VSIX/vscode-templates-react-0.0.1.vsix
+          gh release upload "${TAG}" VSIX/vscode-theme-0.0.1.vsix
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

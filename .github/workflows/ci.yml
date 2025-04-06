@@ -16,5 +16,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: VSIX
-          path: vscode-templates-react-0.0.1.vsix
+          path: vscode-theme-0.0.1.vsix
           retention-days: 30
