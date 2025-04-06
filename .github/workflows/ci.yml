@@ -12,9 +12,11 @@ jobs:
         with:
           node-version: 20
           cache: "npm"
-      - run: npm run ci
+      - run: | 
+          npm ci
+          npm run package
       - uses: actions/upload-artifact@v4
         with:
           name: VSIX
-          path: vscode-theme-0.0.1.vsix
+          path: vscode-theme-cerise-0.0.1.vsix
           retention-days: 30
